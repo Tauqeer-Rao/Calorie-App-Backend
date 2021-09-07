@@ -1,0 +1,10 @@
+.idea/
+node_modules/*
+.env
+credentials.json
+npm-debug.log
+dist
+.DS_Store
+.eslintcache
+combined.log
+error.log
