@@ -3,7 +3,7 @@ import { JWT_TOKEN } from '../../constants/constants';
 
 export default class UserCreateFactory {
     constructor(user, token) {
-        this.id = user._id;
+        // this.id = user._id;
         this.email = user.email;
         this.userName = user.userName;
         this.role = user.role;

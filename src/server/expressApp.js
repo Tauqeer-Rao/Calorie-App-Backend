@@ -20,6 +20,7 @@ app.set('view engine', 'pug');
 // });
 
 Connection.buildConnections();
+
 app.use(bodyParser.json());
 app.use(
     bodyParser.urlencoded({

@@ -5,7 +5,7 @@ import { JWT_TOKEN } from '../../constants/constants';
 export default class UserLoginFactory {
     constructor(email, token, userFound) {
         try {
-            this.id = userFound._id;
+            // this.id = userFound._id;
             this.email = email;
             this.userName = userFound.userName;
             this.role = userFound.role;
